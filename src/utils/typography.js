@@ -1,4 +1,3 @@
-import React from 'react';
 import Typography from 'typography';
 import { MOBILE_MEDIA_QUERY } from 'typography-breakpoint-constants';
 

@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { TypographyStyle, GoogleFont } from 'react-typography';
 import styled from 'styled-components';
 
@@ -69,7 +69,7 @@ const Resume = () =>
       <BasicsSummary><strong>Front-end Developer / Team Lead</strong> with a passion for designing and building beautiful user experiences</BasicsSummary>
       <BasicsProfiles>
         <BasicsProfilesItem>
-          <img src={IconGithub} height="16" width="16" style={{position:'relative',float:'left',top:7}} />
+          <img src={IconGithub} height="16" width="16" alt="" style={{position:'relative',float:'left',top:7}} />
           <Link to="https://github.com/Fedoskina">github.com/Fedoskina</Link> (not very active, but sharing more to open source is my goal for this year!)
         </BasicsProfilesItem>
       </BasicsProfiles>
@@ -219,10 +219,10 @@ const Resume = () =>
   </Container>
   ;
 
-  const Container = styled.div`
-    max-width: 1200px;
-    margin: 0 auto;
-    text-align: left;
-  `;
+const Container = styled.div`
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: left;
+`;
 
 export default Resume;
