@@ -66,7 +66,7 @@ const Resume = () =>
       <BasicsWebsite>
         <Link to="https://www.artlebedev.ru/elf/">www.artlebedev.ru/elf</Link>
       </BasicsWebsite>
-      <BasicsSummary>Front-end Developer / Team Lead</BasicsSummary>
+      <BasicsSummary><strong>Front-end Developer / Team Lead</strong> with a passion for designing and building beautiful user experiences</BasicsSummary>
       <BasicsProfiles>
         <BasicsProfilesItem>
           <img src={IconGithub} height="16" width="16" style={{position:'relative',float:'left',top:7}} />
