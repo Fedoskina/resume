@@ -186,27 +186,19 @@ const Resume = () =>
         </PersonalSkillsItem>
         <PersonalSkillsItem>
           <PersonalSkillsItemTitle>Languages</PersonalSkillsItemTitle>
-          <PersonalSkillsItemDescription>JavaScript, CSS (PostCSS, SASS, LESS), HTML, PHP, Ruby, JSON, XML, XSLT</PersonalSkillsItemDescription>
+          <PersonalSkillsItemDescription>JavaScript, CSS (PostCSS, SASS, LESS), HTML, Parser 3, Ruby, JSON</PersonalSkillsItemDescription>
         </PersonalSkillsItem>
         <PersonalSkillsItem>
           <PersonalSkillsItemTitle>Frameworks &amp; Libraries</PersonalSkillsItemTitle>
-          <PersonalSkillsItemDescription>React, Redux, Angular 1&amp;2, Express, Ruby on Rails</PersonalSkillsItemDescription>
+          <PersonalSkillsItemDescription>jQuery, React, Redux, Angular</PersonalSkillsItemDescription>
         </PersonalSkillsItem>
         <PersonalSkillsItem>
           <PersonalSkillsItemTitle>Version Control</PersonalSkillsItemTitle>
           <PersonalSkillsItemDescription>Git</PersonalSkillsItemDescription>
         </PersonalSkillsItem>
         <PersonalSkillsItem>
-          <PersonalSkillsItemTitle>Data</PersonalSkillsItemTitle>
-          <PersonalSkillsItemDescription>MySQL, Redis, MongoDB, PostgreSQL</PersonalSkillsItemDescription>
-        </PersonalSkillsItem>
-        <PersonalSkillsItem>
-          <PersonalSkillsItemTitle>Tooling</PersonalSkillsItemTitle>
-          <PersonalSkillsItemDescription>Docker</PersonalSkillsItemDescription>
-        </PersonalSkillsItem>
-        <PersonalSkillsItem>
           <PersonalSkillsItemTitle>Editors</PersonalSkillsItemTitle>
-          <PersonalSkillsItemDescription>VS Code, WebStorm</PersonalSkillsItemDescription>
+          <PersonalSkillsItemDescription>WebStorm</PersonalSkillsItemDescription>
         </PersonalSkillsItem>
         <PersonalSkillsItem>
           <PersonalSkillsItemTitle>Design</PersonalSkillsItemTitle>
