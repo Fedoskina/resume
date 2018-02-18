@@ -1,3 +1,5 @@
+import React from 'react';
+
 import styled from 'styled-components';
 
 const Work = styled.div`
@@ -44,6 +46,34 @@ const WorkItemWebsite = styled.div`
   }
 `;
 
+const WorkItemProjectsTitle = styled.h4`
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+`;
+
+const WorkItemProjectsList = styled.div`
+ul {
+  list-style-type: disc;
+}
+
+ul ul {
+  margin-top: 0;
+}
+
+li {
+  margin-bottom: 0;
+}
+`;
+
+const WorkItemProjects = ({ children }) =>
+  <div>
+    <WorkItemProjectsTitle>Notable Projects</WorkItemProjectsTitle>
+    <WorkItemProjectsList>
+      {children}
+    </WorkItemProjectsList>
+  </div>
+  ;
+
 export {
   Work,
   WorkTitle,
@@ -52,5 +82,6 @@ export {
   WorkItemCompany,
   WorkItemPosition,
   WorkItemDescription,
+  WorkItemProjects,
   WorkItemWebsite,
 }
