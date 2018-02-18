@@ -73,7 +73,7 @@ const Resume = () =>
       <WorkItems>
         <WorkItem>
           <WorkItemCompany>Freelancer</WorkItemCompany>
-          <WorkItemPosition>Amsterdam, Netherlands<br />Front End Developer (November 2016 &mdash; current)</WorkItemPosition>
+          <WorkItemPosition>Stockholm, Sweden<br />Front End Developer (November 2016 &mdash; current)</WorkItemPosition>
           <WorkItemDescription>
             At some point, I decided to move to Europe; there I've started working as a freelancer (UI/UX Designer and Front-end Developer).
             <ul>
