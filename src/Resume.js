@@ -49,6 +49,12 @@ import {
   PersonalSkillsItemDescription,
 } from './styles/personal.styles';
 
+import {
+  References,
+  ReferencesTitle,
+  ReferencesDescription,
+} from './styles/references.styles';
+
 const Resume = () =>
   <Container>
     <TypographyStyle typography={typography} />
@@ -206,6 +212,10 @@ const Resume = () =>
         </PersonalSkillsItem>
       </PersonalSkillsItems>
     </PersonalSkills>
+    <References>
+      <ReferencesTitle>References</ReferencesTitle>
+      <ReferencesDescription>References available upon request</ReferencesDescription>
+    </References>
   </Container>
   ;
 
