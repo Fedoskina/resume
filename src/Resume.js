@@ -32,6 +32,15 @@ import {
 } from './styles/work.styles';
 
 import {
+  Education,
+  EducationTitle,
+  EducationItems,
+  EducationItem,
+  EducationItemTitle,
+  EducationItemDescription,
+} from './styles/education.styles';
+
+import {
   PersonalSkills,
   PersonalSkillsTitle,
   PersonalSkillsItems,
@@ -39,7 +48,6 @@ import {
   PersonalSkillsItemTitle,
   PersonalSkillsItemDescription,
 } from './styles/personal.styles';
-
 
 const Resume = () =>
   <Container>
@@ -156,6 +164,15 @@ const Resume = () =>
         </WorkItem>
       </WorkItems>
     </Work>
+    <Education>
+      <EducationTitle>Education</EducationTitle>
+      <EducationItems>
+        <EducationItem>
+          <EducationItemTitle>Chelyabinsk State University, 2008-2013</EducationItemTitle>
+          <EducationItemDescription>MA. Accounting, analysis and audit.</EducationItemDescription>
+        </EducationItem>
+      </EducationItems>
+    </Education>
     <PersonalSkills>
       <PersonalSkillsTitle>Personal Skills</PersonalSkillsTitle>
       <PersonalSkillsItems>
